@@ -11,6 +11,7 @@ trigger EmailUpdate on Contact (after Update ) {
             ev.ContactId__c=c.Id;
             // tempAccount = m.get(c.ContactId__c);
             em.add(ev); 
+
             
         }
         if (Trigger.oldMap.get(c.Id).StudentEmail__c != c.StudentEmail__c) {
