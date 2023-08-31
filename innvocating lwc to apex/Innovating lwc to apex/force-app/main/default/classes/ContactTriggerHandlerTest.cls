@@ -3,7 +3,6 @@ public with sharing class ContactTriggerHandlerTest {
     @isTest 
     public static void HandleTest()
  {
-
     Contact  contact=new Contact();
     contact.FirstName='sai';
     contact.LastName='Lone';
